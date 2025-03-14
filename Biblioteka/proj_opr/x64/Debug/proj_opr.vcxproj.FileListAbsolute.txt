@@ -1,0 +1,5 @@
+C:\kody\proj_opr\proj_opr\x64\Debug\proj_opr.vcxproj.AssemblyReference.cache
+C:\kody\proj_opr\proj_opr\x64\Debug\projopr.start_programu.resources
+C:\kody\proj_opr\proj_opr\x64\Debug\projopr.zaloguj.resources
+C:\kody\proj_opr\proj_opr\x64\Debug\projopr.zarejestruj.resources
+C:\kody\proj_opr\proj_opr\x64\Debug\proj_opr.vcxproj.GenerateResource.cache

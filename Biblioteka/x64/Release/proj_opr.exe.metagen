@@ -1,0 +1,147 @@
+  projopr.lista_przypisanych_pac.resources - Embedded, ContainedInManifestFile, 
+  projopr.lista_upowaznionych.resources - Embedded, ContainedInManifestFile, 
+  projopr.pacjenci_doktora.resources - Embedded, ContainedInManifestFile, 
+  projopr.pliki_pac.resources - Embedded, ContainedInManifestFile, 
+  projopr.rejestracja_doktor.resources - Embedded, ContainedInManifestFile, 
+  projopr.rejestracja_pacjent.resources - Embedded, ContainedInManifestFile, 
+  projopr.rejestracja_upowazniony.resources - Embedded, ContainedInManifestFile, 
+  projopr.start_programu.resources - Embedded, ContainedInManifestFile, 
+  projopr.upowaznieni_przypisani.resources - Embedded, ContainedInManifestFile, 
+  projopr.Zalogowany_doktor.resources - Embedded, ContainedInManifestFile, 
+  projopr.Zalogowany_pacjent.resources - Embedded, ContainedInManifestFile, 
+  projopr.Zalogowany_upowazniony.resources - Embedded, ContainedInManifestFile, 
+  projopr.zaloguj.resources - Embedded, ContainedInManifestFile, 
+  projopr.zarejestruj.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly proj_opr, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MySqlConnectionManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MYSQL* mysql : Public, Static
+  Methods:
+    InitializeConnection(): PrivateScope, Public, Static, HideBySig
+    CloseConnection(): PrivateScope, Public, Static, HideBySig
+Class projopr.lista_przypisanych_pac: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamkniete : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.lista_upowaznionych: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamkniete : Public
+    Boolean upowaznieni : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.pliki_pac: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.pacjenci_doktora: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamykanie : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.rejestracja_doktor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.rejestracja_pacjent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.rejestracja_upowazniony: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.zarejestruj: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamkniete : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.upowaznieni_przypisani: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamykanie : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.Zalogowany_upowazniony: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamykanie : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.Zalogowany_pacjent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean zamkniete : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.Zalogowany_doktor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Byte zamykanie : Public
+    System.String Login : Public
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.zaloguj: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetPreviousForm(Form): PrivateScope, Public, HideBySig
+Class projopr.start_programu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
